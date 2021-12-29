@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 $(document).bind('connect', function (ev, data) {
 	var conn = new Strophe.Connection(
-			"http://bosh.metajack.im:5280/xmpp-httpbind");
+			"https://jabber.ru/http-bind");
 	conn.connect(data.jid, data.password, function (status) {
 		if (status === Strophe.Status.CONNECTED) {
 			$(document).trigger('connected');
