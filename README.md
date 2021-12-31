@@ -4,3 +4,5 @@ This is my attempt to make a brand new virtual tabletop on the web.
 - External images only.
 
 [RollYourGame](https://rollyourgame.github.io)
+
+[Discord] (https://discord.gg/wHa8hwbFNY)
