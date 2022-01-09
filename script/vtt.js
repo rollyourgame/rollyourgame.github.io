@@ -11,4 +11,4 @@ $("#side-panel").resizable({
 });
 $("#side-panel").tabs();
 $("#new-message").buttonset();
-
+$("#side-panel-toggle").click(()=>$("#side-panel").toggle("blind", {direction: "right"}));

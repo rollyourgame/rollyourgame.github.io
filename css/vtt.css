@@ -12,8 +12,18 @@ body {
 	position: fixed;
 	top: 0em;
 	bottom: 0em;
-	right: 0em;
+	right: 1em;
 	width: 17em;
+}
+#side-panel-toggle {
+	position: fixed;
+	top: 0em;
+	bottom: 0em;
+	right: 0em;
+	width: 1em;
+	background-color: #7e7783;
+	color: white;
+	padding-top: 50vh;
 }
 .ui-tabs .ui-tabs-panel {
 	padding: 0.2em 0em !important;
