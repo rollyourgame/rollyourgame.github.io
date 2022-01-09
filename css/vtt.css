@@ -1,21 +1,17 @@
 body {
 	background-color: #5f5864;
 }
-.ui-icon {
-	transform: scale(2);
-}
 .scroll {
 	overflow-y: scroll;
 }
-
-#side-panel {
+#sidebar {
 	position: fixed;
 	top: 0em;
 	bottom: 0em;
 	right: 1em;
 	width: 17em;
 }
-#side-panel-toggle {
+#sidebar-toggle {
 	position: fixed;
 	top: 0em;
 	bottom: 0em;
@@ -29,22 +25,58 @@ body {
 	padding: 0.2em 0em !important;
 	height: 100%;
 }
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	padding: 0.1em 0.1em !important;
+}
 .flex-container {
 	display: flex;
 	flex-direction: column-reverse;
 	flex-wrap: nowrap;
 	height: 100%;
 }
-
-#chat {
-	margin-top: 0em;
-}
-
 #new-message {
-	margin-bottom: 2.5em;
+	margin-bottom: 3em;
 }
-
 textarea {
 	width: 100%;
 	resize: vertical;
+}
+
+#toolbar {
+	position: fixed;
+	top: 6em;
+	left: 0em;
+	width: 4em;
+	border: 1px solid #7e7783;
+	border-radius: 6px;
+	background: #3d3644;
+	color: #ffffff;
+}
+
+/* --- icon sizes --- */
+#toolbar > div {
+	width: 4em;
+	height: 4em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ui-tabs-anchor > div {
+	width: 2em;
+	height: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+/* --- icons --- */
+.icon {
+	background-size: cover;
+}
+.icon-gear {
+	background-image: url("/img/icons/gear.png");
+}
+.icon-chat {
+	background-image: url("/img/icons/chat.png");
+}
+.icon-map {
+	background-image: url("/img/icons/map.png");
 }

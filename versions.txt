@@ -1,2 +1,3 @@
-0.0.1 - added side panel
-0.0.2 - toggle side panel
+0.0.1 - added sidebar
+0.0.2 - toggle sidebar
+0.0.3 - added toolbar

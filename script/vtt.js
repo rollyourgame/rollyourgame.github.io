@@ -4,11 +4,11 @@ let vtt = {
 
 }
 
-
-$("#side-panel").resizable({
+/* resizable sidebar */
+$("#sidebar").resizable({
 	handles: "w",
 	minWidth: "250"
 });
-$("#side-panel").tabs();
+$("#sidebar").tabs();
 $("#new-message").buttonset();
-$("#side-panel-toggle").click(()=>$("#side-panel").toggle("blind", {direction: "right"}));
+$("#sidebar-toggle").click(()=>$("#sidebar").toggle("slide", {direction: "right"}));
