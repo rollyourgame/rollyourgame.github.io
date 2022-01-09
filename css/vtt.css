@@ -1,0 +1,40 @@
+body {
+	background-color: #5f5864;
+}
+.ui-icon {
+	transform: scale(2);
+}
+.scroll {
+	overflow-y: scroll;
+}
+
+#side-panel {
+	position: fixed;
+	top: 0em;
+	bottom: 0em;
+	right: 0em;
+	width: 17em;
+}
+.ui-tabs .ui-tabs-panel {
+	padding: 0.2em 0em !important;
+	height: 100%;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	height: 100%;
+}
+
+#chat {
+	margin-top: 0em;
+}
+
+#new-message {
+	margin-bottom: 2.5em;
+}
+
+textarea {
+	width: 100%;
+	resize: vertical;
+}

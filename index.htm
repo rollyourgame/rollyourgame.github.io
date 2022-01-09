@@ -7,16 +7,45 @@
     <meta name="description" content="Index page">
     <meta name="author" content="Evgeny Kedyshko">
 	<link rel="icon" href="/favicon-32.png" sizes="32x32">
-    <link rel="stylesheet" href="">
-	<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/themes/blitzer/jquery-ui.css" type="text/css" media="all" /> 
+    <link rel="stylesheet" href="/css/vtt.css">
+	<link rel="stylesheet" href="/css/eggplant/jquery-ui.css" type="text/css" media="all" /> 
   </head>
   <body>
-    <h1> Hello there. </h1>
-    <!-- your content here... -->
+    <div id="side-panel">
+	  <ul>
+		<li><a href="#side-panel-1"><span class="ui-icon ui-icon-comment"></span></a></li>
+		<li><a href="#side-panel-2"><span class="ui-icon ui-icon-wrench"></span></a></li>
+	  </ul>
+	  <div id="side-panel-1">
+		<div class="flex-container">
+			<div id="new-message">
+				<textarea></textarea>
+				<button>Send</button>
+			</div>
+			<div id="chat" class="scroll flex-container"></div>
+		</div>
+	  </div>
+	  <div id="side-panel-2">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+	  </div>
+	</div>
 	
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src='https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js'></script>
+	
+    <script src="/script/jquery.min.js"></script>
+	<script src="/script/jquery-ui.min.js"></script>
     <script src="/script/strophe.js"></script>
     <script src="/script/pixi.js"></script>
+	<script src="/script/vtt.js"></script>
   </body>
 </html>
